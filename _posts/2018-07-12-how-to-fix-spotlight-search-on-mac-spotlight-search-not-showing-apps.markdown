@@ -20,21 +20,21 @@ If you're using Spotlight on Mac (`Command` + `Spacebar`) to quickly open an app
 * [References](#references)
 * [Follow me](#follow-me)
 
-![How to Fix Spotlight on Mac High Sierra](/content/images/2018/07/How-to-fix-spotlight-on-Mac.jpg)
+![How to Fix Spotlight on Mac High Sierra](/assets/images/2018/07/How-to-fix-spotlight-on-Mac.jpg)
 
 ## How to Fix Spotlight Search on macOS High Sierra  with Terminal<a id="fix"></a>
 
 Terminal is another way to control your Mac, and if you've never used it before, don't worry, this is a safe command to run (even if you have no idea what you're doing).
 
-![0-Terminal](/content/images/2018/07/0-Terminal.png#full)
+![0-Terminal](/assets/images/2018/07/0-Terminal.png#full)
 
 1. Open the Terminal app from your "Applications" folder 
 
-    ![Finder Applications to Utilities Folder on Mac](/content/images/2018/07/1-Finder-applications-utilities-macos-high-sierra.png)
+    ![Finder Applications to Utilities Folder on Mac](/assets/images/2018/07/1-Finder-applications-utilities-macos-high-sierra.png)
 
 2. Open the "Utilities" folder and launch "Terminal"
 
-    ![Finder Applications Utilities Folder Terminal on Mac](/content/images/2018/07/2-Finder-applications-utilities-terminal-macos-high-sierra.png)
+    ![Finder Applications Utilities Folder Terminal on Mac](/assets/images/2018/07/2-Finder-applications-utilities-terminal-macos-high-sierra.png)
 
 3. Copy and paste this command and press enter:
 
@@ -50,11 +50,11 @@ Terminal is another way to control your Mac, and if you've never used it before,
 
 4. Type your password, and let it run. Give your Mac 15-30 seconds to start re-indexing all your files, apps, and images.
 
-    ![Reindex spotlight on Mac using Terminal Successful](/content/images/2018/07/3Reindex-Mac-Spotlight-Search-Using-Terminal.png)
+    ![Reindex spotlight on Mac using Terminal Successful](/assets/images/2018/07/3Reindex-Mac-Spotlight-Search-Using-Terminal.png)
 
 5. Try searching for "Safari" with Spotlight (`Command` + `Spacebar`). 
 
-    ![Spotlight Search Working on Mac](/content/images/2018/07/01-Spotlight-search-mac-working.png)
+    ![Spotlight Search Working on Mac](/assets/images/2018/07/01-Spotlight-search-mac-working.png)
     
 > **Note**: You may have to wait longer your entire hard drive (and all the files) to be indexed, but apps should be indexed pretty quickly.
 
@@ -86,7 +86,7 @@ The next time you start typing "Terminal" stop with the first three letters: "Te
 2. Start typing "Ter" (add more letters if you don't see Terminal in the list)
 3. Select Terminal
 
-![Terminal-spotlight-retrain-ter](/content/images/2018/07/Terminal-spotlight-retrain-ter.png)
+![Terminal-spotlight-retrain-ter](/assets/images/2018/07/Terminal-spotlight-retrain-ter.png)
 
 Now you've *"re-trained"* Spotlight for showing Terminal as the first result for "Ter".
 

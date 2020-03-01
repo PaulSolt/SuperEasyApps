@@ -86,7 +86,7 @@ We're a lot closer to a final product, but the end still feels a bit away, since
 
 ## Feature Creep
 
-![Features-Super-Easy-Timer](/content/images/2018/02/Features-Super-Easy-Timer.jpg)
+![Features-Super-Easy-Timer](/assets/images/2018/02/Features-Super-Easy-Timer.jpg)
 
 Now is the time were we need to lock in the priorities for the initial version, and lock out anything that doesn't contribute to an earlier release date.
 
@@ -104,7 +104,7 @@ It's the fastest way to create a timer using natural language, and it's very eas
 
 I set a 20 minute timer just by typing "20 minutes".
 
-[![Super Easy Timer 20 minutes with natural language](/content/images/2018/02/Super-Easy-Timer-20-minutes-ready-to-start.png)](https://app.convertkit.com/landing_pages/298469?v=6)
+[![Super Easy Timer 20 minutes with natural language](/assets/images/2018/02/Super-Easy-Timer-20-minutes-ready-to-start.png)](https://app.convertkit.com/landing_pages/298469?v=6)
 
 Then I write for 20 minutes. 
 

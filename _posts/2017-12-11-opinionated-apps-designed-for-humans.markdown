@@ -13,7 +13,7 @@ major
 
 **Another timer app ?!**
 
-![Timer-Apps-for-Mac](/content/images/2017/12/Timer-Apps-for-Mac.png)
+![Timer-Apps-for-Mac](/assets/images/2017/12/Timer-Apps-for-Mac.png)
 
 The tentative name of our upcoming app is "Super Easy Timer", but that's going to be subject to change with your feedback.
 
@@ -62,7 +62,7 @@ In my search for a timer app, after reading David Allen's book "Getting Things D
 
 **Red Hot Timer**
 
-![Red-Hot-Timer](/content/images/2017/12/Red-Hot-Timer.png)
+![Red-Hot-Timer](/assets/images/2017/12/Red-Hot-Timer.png)
 
 There were aspects of the Red Hot Timer that I really enjoyed, but when High Sierra was released the app wouldn't last the full 20 minutes . . . 
 

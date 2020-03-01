@@ -10,7 +10,7 @@ tags:
 
 Xcode 10 is a fantastic update to an already great piece of software for developing and debugging apps. Xcode allows you to easily create an iPhone app or a Mac app that you can launch and sell on the App Store.
 
-![Xcode-10-1](/content/images/2018/10/Xcode-10-1.png)
+![Xcode-10-1](/assets/images/2018/10/Xcode-10-1.png)
 
 Are there bugs? Yes. 
 
@@ -28,9 +28,9 @@ Xcode is vastly better than Visual Studio and other code integrated development 
 
 With Xcode, I'm able to easily take an idea to the App Store to make $$$ (i.e.: [Super Easy Timer](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?ls=1&mt=12)).
 
-[![icon_256x256](/content/images/2018/10/icon_256x256.png)](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?ls=1&mt=12)
+[![icon_256x256](/assets/images/2018/10/icon_256x256.png)](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?ls=1&mt=12)
 
-![0-App-Store-Connect-Super-Easy-Timer-Sales-October-2018](/content/images/2018/10/0-App-Store-Connect-Super-Easy-Timer-Sales-October-2018.png)
+![0-App-Store-Connect-Super-Easy-Timer-Sales-October-2018](/assets/images/2018/10/0-App-Store-Connect-Super-Easy-Timer-Sales-October-2018.png)
 
 [Download Xcode 10](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12) today and get started making that app you've always wanted to make.
 
@@ -42,17 +42,17 @@ Cocoapods and workspaces make it super easy to get started with an open source f
 
 The Address Sanitizer and Thread Sanitizer have both helped me solve so many bugs that slipped through the cracks when I was working in C and C++ cross-platform code (Windows/macOS). Debugging threads on Visual Studio is a nightmare as the threads change randomly (as you step through code), while in Xcode it's effortless to follow and doesn't randomly jump.
 
-![Xcode memory and thread debugging is amazing](/content/images/2018/10/1-Xcode-10-thread-sanitizer-address-sanitizer-.png)
+![Xcode memory and thread debugging is amazing](/assets/images/2018/10/1-Xcode-10-thread-sanitizer-address-sanitizer-.png)
 
 I much prefer developing in Xcode than Visual Studio, even though I first started programming in Visual Studio 6 with C++ back in 2004. I grew up on Windows computers, and I didn't start using Mac computers until 2008. But now I can't go back to Windows. The experience and the development environment is better on Mac. (The only downfall is Mac gaming performance)
 
 Apple understands easy-to-use software and manages to simplify complex tasks intuitively. The prominent "play" button is an outstanding example of why Xcode is easier to use. It doesn't overcomplicate the UI and provides a great development experience for starting your app right away. For contrast, take a look at Visual Studio and tell me what button, out of the 20+ buttons makes the project build. (Hint sometimes in Visual Studio it's not even visible!)
 
-![Xcode 10 Play Button is Easy](/content/images/2018/10/Xcode-Play.png)
+![Xcode 10 Play Button is Easy](/assets/images/2018/10/Xcode-Play.png)
 
 Compare Xcode 10 to Visual Studio 2017.
 
-![Mobile Development with Visual Studio 2017 (Microsoft)](/content/images/2018/10/Mobile-development-with-.NET_copy_opt.jpg)
+![Mobile Development with Visual Studio 2017 (Microsoft)](/assets/images/2018/10/Mobile-development-with-.NET_copy_opt.jpg)
 
 ## Bugless?
 
@@ -80,7 +80,7 @@ BUT, there are still some "indeterministic run" bugs with Playground so they can
 
 The keyboard shortcuts don't always work to run the Playground — my workaround is to press the Play/Stop button in the bottom left corner. Hopefully, Apple will fix my bug reports and make Playgrounds even better for beginners!
 
-![Playgrounds upgraded in Xcode 10](/content/images/2018/10/Playgrounds-Upgrade-in-Xcode-10.png)
+![Playgrounds upgraded in Xcode 10](/assets/images/2018/10/Playgrounds-Upgrade-in-Xcode-10.png)
 
 I'm not sure if Apple's going to enable debugging in Playgrounds, but it feels like a missing feature. 
 

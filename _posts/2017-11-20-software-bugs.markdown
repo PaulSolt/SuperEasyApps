@@ -31,13 +31,13 @@ I expected it to stay on my current monitor, not my second monitor.
 ## Full-screen Bug ##
 
 
-![Half-Offscreen-Timer-App](/content/images/2017/11/Half-Offscreen-Timer-App.png)
+![Half-Offscreen-Timer-App](/assets/images/2017/11/Half-Offscreen-Timer-App.png)
 
 The second monitor (my MacBook Pro's retina display) has the timer app in full-screen, but it's not where you expect it to be as a user.
 
 It should have been on my primary monitor (5K LG UltraFine)
 
-![Wrong-Monitor-Fullscreen](/content/images/2017/11/Wrong-Monitor-Fullscreen.png)
+![Wrong-Monitor-Fullscreen](/assets/images/2017/11/Wrong-Monitor-Fullscreen.png)
 
 
 ## How do you cultivate this testing philosophy? ## 

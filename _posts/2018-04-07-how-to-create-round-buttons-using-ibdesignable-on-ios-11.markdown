@@ -10,7 +10,7 @@ tags:
 - storyboard
 ---
 
-![](/content/images/2017/12/header-render.jpg)
+![](/assets/images/2017/12/header-render.jpg)
 
 Buttons in Xcode Storyboards require a bit of work to customize, especially if you want a solid background color and an easy to edit corner radius. 
 
@@ -25,7 +25,7 @@ In this tutorial you will learn a new approach that combines the best of both wo
 
 You can leverage this approach for other UI elements in your application to create image free, pixel-perfect rounded buttons (or dialogs and other views).
 
-![A stock UIButton with some of the buttons you will be able to build using this tutorial](/content/images/2017/12/examples.png)
+![A stock UIButton with some of the buttons you will be able to build using this tutorial](/assets/images/2017/12/examples.png)
 
 ## Download the 11 Step `@IBDesignable` PDF
 
@@ -38,7 +38,7 @@ You can reference this guide quickly when you make your UI more design friendly,
 ## 1. Create Swift Code File
 Create a new Swift code file called: `RoundButton.swift`
 
-![Swift-create-File-Xcode-9](/content/images/2017/12/Swift-create-File-Xcode-9.png)
+![Swift-create-File-Xcode-9](/assets/images/2017/12/Swift-create-File-Xcode-9.png)
 
 ## 2. Subclass `UIButton` and make it `@IBDesignable`
 
@@ -150,7 +150,7 @@ This step will make sure the `layer.cornerRadius` value is set to the default of
 3. Set the text (i.e.: Tint color) to white.
 4. Open the `Identity Inspector` and set the Class attribute to `RoundButton`.
 
-    ![Corners](/content/images/2017/12/Corners.gif)
+    ![Corners](/assets/images/2017/12/Corners.gif)
 
 5. After you set the `UIButton`'s Class to `RoundButton`, you get a separate option to adjust the corner radius in the "Attributes Inspector".
 
@@ -193,7 +193,7 @@ This function is a little complex if you're new to computer graphics:
 3. `UIRectFill()` is a Core Graphics routine that can paint a rectangle with the set fill color.
 4. The last step renders an `UIImage` from the open graphics context
 
-    ![background-creation](/content/images/2017/12/background-creation.png)
+    ![background-creation](/assets/images/2017/12/background-creation.png)
 
 ## 10. Create an `@IBInspectable` `UIColor` Property
 
@@ -242,12 +242,12 @@ You can create `UIColor` properties that are `@IBInspectable` and let the user p
 1. Click on your main.storyboard file and open the Attributes Inspector on the right.
 2. Change the "Background Image Color" property for your `RoundButton` to a new color:
 
-    ![ColorPicker_New](/content/images/2017/12/ColorPicker_New.gif)
+    ![ColorPicker_New](/assets/images/2017/12/ColorPicker_New.gif)
 
 
 3. Tap the button and watch the fade animation:
 
-    ![ClickAnimation](/content/images/2017/12/ClickAnimation.gif)
+    ![ClickAnimation](/assets/images/2017/12/ClickAnimation.gif)
 
 Awesome!
 

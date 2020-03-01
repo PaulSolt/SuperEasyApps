@@ -45,7 +45,7 @@ Many of the links below are available on Amazon with affiliate links. Any purcha
 * [Audio/Video Mac Apps](#audiovideomacapps)
 * [Business Operations](#businessoperations)
 
-[![181-ios-developer-tools-hero-medium](/content/images/2018/06/181-ios-developer-tools-hero-medium.jpeg)](https://app.convertkit.com/landing_pages/413106?v=7)
+[![181-ios-developer-tools-hero-medium](/assets/images/2018/06/181-ios-developer-tools-hero-medium.jpeg)](https://app.convertkit.com/landing_pages/413106?v=7)
 
 ## Mobile Office (i.e. Daily Backpack) <a id="mobileoffice"></a>
 
@@ -248,7 +248,7 @@ I'll admit that I'm a coffee snob. I've been hooked ever since one of my friends
 
 I'm still using and loving my Thunderbolt 27" monitor. I wish Apple actually made the 5K monitor (which is in the works) instead of LG, since the Thunderbolt is very reliable. Before my 2016 MacBook Pro, my 2013 Mac Pro was my goto video editing and streaming Mac. The ThunderBay provides my video backups and is super fast in a RAID array.
 
-![Standing-Desk-iOS-Developer-Mac](/content/images/2018/06/Standing-Desk-iOS-Developer-Mac.jpeg#full)
+![Standing-Desk-iOS-Developer-Mac](/assets/images/2018/06/Standing-Desk-iOS-Developer-Mac.jpeg#full)
 
 1. [Thunderbolt 27" Display](https://amzn.to/2y4syTo) - My work office display (unfortunately it's still non-retina)
 2. [Mac Pro 8 Core 2013](https://amzn.to/2MmyzOe) - My live streaming and backup Mac for video rendering (very quiet under load, unlike the 2016 MacBook Pro)

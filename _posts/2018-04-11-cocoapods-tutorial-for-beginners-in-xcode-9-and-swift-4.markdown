@@ -14,7 +14,7 @@ Follow along with a CocoaPods tutorial that will show you how to setup Cocoapods
 
 What are CocoaPods?
 
-![Cocoapods-Logo](/content/images/2018/04/Cocoapods-Logo.png)
+![Cocoapods-Logo](/assets/images/2018/04/Cocoapods-Logo.png)
 
 Cocoapods is a system that helps you create the Xcode project (Workspace) that can include other open source Swift and Objective-C projects (Networking, Animation, Auto Layout, etc.). 
 

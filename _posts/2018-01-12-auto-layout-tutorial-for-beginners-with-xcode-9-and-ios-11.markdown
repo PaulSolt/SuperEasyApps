@@ -37,7 +37,7 @@ Some content also has an intrinsic content size. This size is the minimum size t
 
 Before you dive into learning how to specify the rules, look at an iPhone app screenshot from Instragram.
 
-![Instagram-Photo-Editor](/content/images/2018/01/Instagram-Photo-Editor.jpg)
+![Instagram-Photo-Editor](/assets/images/2018/01/Instagram-Photo-Editor.jpg)
 
 This is the image editor for Story photos in Instagram. It allows you to mark up a picture with a marker, stickers, and text. You have options to save the photo locally, add it to your public story (resets every day), or share it with a small group of friends.
 

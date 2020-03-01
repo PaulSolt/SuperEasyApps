@@ -14,7 +14,7 @@ My latest app idea came out of frustration of not getting things done.
 
 And it's not the only idea I've had . . . [Brew Coffee](http://brewcoffeeapp.com/?utm_source=blog&utm_medium=social&utm_campaign=app_ideas) was created to solve one of my problems. I was unable to make consistent pour-over coffee, so I made a coffee recipe app to guide me. I use Brew Coffee ever single day (that's the best kind of app idea).
 
-[![Brew Coffee App for iPhone and Apple Watch](/content/images/2017/12/Hario-MockupWeb1920.jpg#full)](http://brewcoffeeapp.com/?utm_source=blog&utm_medium=social&utm_campaign=app_ideas)
+[![Brew Coffee App for iPhone and Apple Watch](/assets/images/2017/12/Hario-MockupWeb1920.jpg#full)](http://brewcoffeeapp.com/?utm_source=blog&utm_medium=social&utm_campaign=app_ideas)
 
 You've probably struggled with a problem too.
 
@@ -78,7 +78,7 @@ In my search for a timer app, I found a timer that worked well, but not exactly 
 
 ## Red Hot Timer
 
-![20 minute timer in Red Hot Timer](/content/images/2017/12/Red-hot-timer.png)
+![20 minute timer in Red Hot Timer](/assets/images/2017/12/Red-hot-timer.png)
 
 [You can download Red Hot Timer here](https://itunes.apple.com/us/app/red-hot-timer/id929960914?mt=12) (Play around with it, so you can understand it's behavior).
 
@@ -120,7 +120,7 @@ I've seen this in my own apps as well on iOS (Photo Table has a nasty crashing b
 
 My next step was to search for an alternative on the App Store, but I couldn't find a decent replacement.
 
-![433 timer apps on the Mac App Store](/content/images/2017/12/433-timer-apps-on-Mac-app-store.png)
+![433 timer apps on the Mac App Store](/assets/images/2017/12/433-timer-apps-on-Mac-app-store.png)
 
 Most of the timer apps (400+) are either a developer's first app or copy cat apps with no thought to design, usability, or functionality. 
 
@@ -135,7 +135,7 @@ I wanted my intern, Luke, to work on an interesting project, and the "timer app"
 
 Using my notes from the Red Hot Timer, Luke and I planned how the timer might work.
 
-![Super-easy-timer-sketch](/content/images/2017/12/Super-easy-timer-sketch.jpg)
+![Super-easy-timer-sketch](/assets/images/2017/12/Super-easy-timer-sketch.jpg)
 
 From those initial designs, Luke got to work on a new Xcode project and by the next day we had a working prototype . . . 
 
@@ -161,11 +161,11 @@ I bit the bullet on a few mornings, where my productivity was impacted by featur
 
 I captured my thoughts into bug report and feature request items using [Manuscript (Formerly Fogbugz and free for up to 2 people)](https://www.manuscript.com/).
 
-![Manuscript (FogBugz) Issue and Bug Tracker](/content/images/2017/12/FogBugz-Preview.png)
+![Manuscript (FogBugz) Issue and Bug Tracker](/assets/images/2017/12/FogBugz-Preview.png)
 
 Using Manuscript I can include descriptions about what was wrong, steps to reproduce, images, and the expected behavior.
 
-![Example bug with details in Manuscript](/content/images/2017/12/Dark-mode-bug.png)
+![Example bug with details in Manuscript](/assets/images/2017/12/Dark-mode-bug.png)
 
 What came out of that process was something great.
 
@@ -183,7 +183,7 @@ And that's where we are right now.
 
 We'll be adding new beta testers in batches over the coming weeks and months. If you want early access to our upcoming app, [signup for the Super Easy Timer beta](https://supereasyapps.com/super-easy-timer?utm_source=blog&utm_medium=social&utm_campaign=app_ideas).
 
-[![Super Easy Timer beta](/content/images/2017/12/super-easy-timer-large.png)](https://supereasyapps.com/super-easy-timer?utm_source=blog&utm_medium=social&utm_campaign=app_ideas)
+[![Super Easy Timer beta](/assets/images/2017/12/super-easy-timer-large.png)](https://supereasyapps.com/super-easy-timer?utm_source=blog&utm_medium=social&utm_campaign=app_ideas)
 
 For this article I set a 20 minute timer, and finished writing ~473 words in my first draft using just 11 minutes. Talk about efficiency. 
 

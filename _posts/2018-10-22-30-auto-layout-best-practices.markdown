@@ -27,7 +27,7 @@ If you're a beginner and you've struggled with ambiguous layouts, misplaced view
 
 > Auto Layout allows you to define regions to fill a percentage of your iPhone X screen size, to center horizontally, or to maintain equal widths.
 
-<img src="/content/images/2017/11/iPhone-X-Auto-Layout.png" width="300">
+<img src="/assets/images/2017/11/iPhone-X-Auto-Layout.png" width="300">
 
 Feel free to jump around between the different best practices using the table of contents, or the PDF version of the Auto Layout Best Practices.
 
@@ -72,7 +72,7 @@ Download the guide and you can save yourself from countless hours, days, and eve
 29. [Alignment and Tie Fighter Buttons](#alignment-and-tie-fighter-buttons)
 30. [Don't Use These Settings](#dont-use-these-settings)
 
-![30-Auto-Layotu-Best-Practices@1x](/content/images/2017/11/30-Auto-Layotu-Best-Practices@1x.jpg)
+![30-Auto-Layotu-Best-Practices@1x](/assets/images/2017/11/30-Auto-Layotu-Best-Practices@1x.jpg)
 
 ## 1. Design for iPhone 8 <a id="design-for-iphone-8"></a>
 
@@ -107,7 +107,7 @@ To keep it simple, in [Sketch](https://www.sketchapp.com) or Illustrator, create
 
 > I use Sketch for everything. Exporting images (.png) and vectors (.pdf) is quick and easy (compared to the clunky Illustrator interface).
 
-<img src="/content/images/2017/11/1-Design-iPhone-UI-in-Sketch-for-iPhone-8.png" alt="Design Layout in Sketch for iPhone 8 First" width="300">
+<img src="/assets/images/2017/11/1-Design-iPhone-UI-in-Sketch-for-iPhone-8.png" alt="Design Layout in Sketch for iPhone 8 First" width="300">
 
 
 In Sketch you can quickly export @1x, @2x, and @3x images for the different retina resolutions that you can drag-and-drop into Xcode.
@@ -136,7 +136,7 @@ Save yourself the time and frustration by designing your app UI for iPhone 8 (no
 
 Here is a Sketch design that has been implemented in Xcode's Storyboard. 
 
-![Layout Storyboard for iPhone 8 First](/content/images/2017/11/Layout-for-one-screen-size.png)
+![Layout Storyboard for iPhone 8 First](/assets/images/2017/11/Layout-for-one-screen-size.png)
 
 If you want to learn how to design your first iPhone app, [checkout my free 4-part email course (iPhone Apps 101)](http://SuperEasyApps.com).
 
@@ -147,13 +147,13 @@ Your goal is to translate all of the fonts, images, and content from your design
 
 On your Mac you can simulator any kind of iOS device, Apple TV, and even Apple Watch. You don't need to own a device to make an iPhone app. 
 
-![iPhone-Screen-sizes](/content/images/2017/11/iPhone-Screen-sizes.jpg#full)
+![iPhone-Screen-sizes](/assets/images/2017/11/iPhone-Screen-sizes.jpg#full)
 
 It's faster to test with a simulator instead of a real device, and smaller iPhone screens will run faster on slower Mac computers. 
 
 When you open an Xcode project, the default simulator is an iPhone 8 Plus (it's HUGE!). You should always change this to the iPhone 8 Simulator, or you'll end up waiting longer for apps to start.
 
-![Start-with-the-iPhone-8-simulator-in-xcode](/content/images/2017/11/Start-with-the-iPhone-8-simulator-in-xcode.png)
+![Start-with-the-iPhone-8-simulator-in-xcode](/assets/images/2017/11/Start-with-the-iPhone-8-simulator-in-xcode.png)
 
 You can test on the different screen sizes after you set your Auto Layout constraints.
 
@@ -172,11 +172,11 @@ You can test landscape and portrait layouts as you make changes, which will save
 2. Show the Assistant Editor
 3. Choose the Preview in the Jump Bar
 
-![Xcode-9-storyboard-assistant-editor](/content/images/2017/11/Xcode-9-storyboard-assistant-editor.png)
+![Xcode-9-storyboard-assistant-editor](/assets/images/2017/11/Xcode-9-storyboard-assistant-editor.png)
 
 **Storyboard Preview Overview**
 
-![Storyboard Preview Overview](/content/images/2017/11/Xcode-preview-auto-layout.png)
+![Storyboard Preview Overview](/assets/images/2017/11/Xcode-preview-auto-layout.png)
 
 **Add New Preview Screens**
 
@@ -184,13 +184,13 @@ You can test out every combination of screen sizes when you add new screens, or 
 
 > Keep in mind, that the preview screen will help you fix problems quickly, but you should test your app on a real device before you submit to the App Store.
 
-<img src="/content/images/2017/11/Xcode-preview-add-device-size.png" alt="Preview Auto Layout on new screen sizes with Xcode" width="400">
+<img src="/assets/images/2017/11/Xcode-preview-add-device-size.png" alt="Preview Auto Layout on new screen sizes with Xcode" width="400">
 
 **Test Localization**
 
 To make sure your layout works in other languages, the "Double-Length Pseudolanguage" will help you determine if you have to fix any layout issues. Languages like German take up almost twice the length of words in English.
 
-<img src="/content/images/2017/11/Xcode-preview-test-language-layout-localization.png" alt="Test localization with longer text in Xcode Preview" width="300">
+<img src="/assets/images/2017/11/Xcode-preview-test-language-layout-localization.png" alt="Test localization with longer text in Xcode Preview" width="300">
 
 <script async id="_ck_296457" src="https://forms.convertkit.com/296457?v=6"></script>
 
@@ -216,7 +216,7 @@ Layouts are relative, and to get into that mindset, try and slice up the main co
 
 > Here's a photo of my dog Row centered in the top third, and three buttons centered along the bottom edge of the photo.
 
-<img src="/content/images/2017/11/Row-top-third-layout-3-buttons-centered.png" alt="Row centered along top 3rd with buttons centered below" width="340">
+<img src="/assets/images/2017/11/Row-top-third-layout-3-buttons-centered.png" alt="Row centered along top 3rd with buttons centered below" width="340">
 
 *Tip: The default spacing between most iOS UI elements is 8 points, and 20 points on the edges.*
 
@@ -224,37 +224,37 @@ To center content and get more control, you need to add additional subviews (eve
 
 ### Workflow: Center Content ###
 
-<img src="/content/images/2017/11/Preview-Centered-Layout.png" alt="Create a centered title and subhead" width="340">
+<img src="/assets/images/2017/11/Preview-Centered-Layout.png" alt="Create a centered title and subhead" width="340">
 
 Your goal is to center a title and subhead using two `UILabel`'s in the top of an iPhone app and have them centered both vertically and horizontally. 
 
 1. Add a new `UIView` to the top (colored green to help layout).
 
-	<img src="/content/images/2017/11/Add-a-green-top-uiview.png" alt="Add a Green Containing UIView" width="300">
+	<img src="/assets/images/2017/11/Add-a-green-top-uiview.png" alt="Add a Green Containing UIView" width="300">
 
 2. Rename the top view "TopView" (or something descriptive) and add the subviews into it.
 	
-	<img src="/content/images/2017/11/Rename-view.png" alt="Rename the Containing Top UIView" width="300">
+	<img src="/assets/images/2017/11/Rename-view.png" alt="Rename the Containing Top UIView" width="300">
 
 3. Add constraints to pin the "TopView" to the edges.
 
-	<img src="/content/images/2017/11/Add-auto-layout-constraints-to-pin-top-view.png" alt="Add container view layout constraints" width="500">
+	<img src="/assets/images/2017/11/Add-auto-layout-constraints-to-pin-top-view.png" alt="Add container view layout constraints" width="500">
 
 4. Embed both `UILabel`'s inside and position them in the center.
 
-	<img src="/content/images/2017/11/Center-views-in-top-content-view.png" alt="Embed the title UILabel inside the containing UIView" width="300">
+	<img src="/assets/images/2017/11/Center-views-in-top-content-view.png" alt="Embed the title UILabel inside the containing UIView" width="300">
 
 5. Add constraints to center your content inside of the top view.
 
-	<img src="/content/images/2017/11/Add-horizontal-and-vertical-center-constraints.png" alt="Add vertical and horizontal center constraints" width="300">
+	<img src="/assets/images/2017/11/Add-horizontal-and-vertical-center-constraints.png" alt="Add vertical and horizontal center constraints" width="300">
 
 6. Update the Constraint Constants to use the current canvas position.
 
-	<img src="/content/images/2017/11/Update-constraint-constants-to-use-canvas-values.png" alt="Update constraint constants to use the canvas position and size" width="300">
+	<img src="/assets/images/2017/11/Update-constraint-constants-to-use-canvas-values.png" alt="Update constraint constants to use the canvas position and size" width="300">
 
 7. The final layout without the green color should look centered.
 
-	<img src="/content/images/2017/11/Final-Row-centered-with-auto-layout.png" alt="Final app layout using centered content" width="340">
+	<img src="/assets/images/2017/11/Final-Row-centered-with-auto-layout.png" alt="Final app layout using centered content" width="340">
 
 <script async id="_ck_296457" src="https://forms.convertkit.com/296457?v=6"></script>
 
@@ -264,7 +264,7 @@ Auto Layout constraints are most important when you focus on the areas that will
 
 Identify the big UI elements that lead to the overall structure by thinking about what areas fill the space.
 
-[![Brew Coffee app](/content/images/2017/11/Brew-coffee-sketch-layout-regions-1.JPG#full)](BrewCoffeeApp.com)
+[![Brew Coffee app](/assets/images/2017/11/Brew-coffee-sketch-layout-regions-1.JPG#full)](BrewCoffeeApp.com)
 
 Ornamental or supplemental accessory title `UILabel`'s or `UIImageView`'s are positioned relative to the main structure portions of your app.
 
@@ -288,7 +288,7 @@ Auto Layout constraints will not appear to be correct unless they are blue. When
 
 If you add all the layout constraints in both the vertical and horizontal directions you will see blue lines and I-beams.
 
-<img src="/content/images/2017/11/Blue-layout-complete-layout.png" alt="Blue Auto Layout Constraints" width="400">
+<img src="/assets/images/2017/11/Blue-layout-complete-layout.png" alt="Blue Auto Layout Constraints" width="400">
 
 When your layout looks blue, that means you have enough layout constraints and that you're finished.
 
@@ -298,7 +298,7 @@ When your layout looks blue, that means you have enough layout constraints and t
 
 You might accidentally bump a view, and when that happens after you've already setup the layout constraints is that you'll see orange lines.
 
-<img src="/content/images/2017/11/Misplaced-view-auto-layout-xcode.png" alt="Misplaced Views when layout does not match runtime position" width="400">
+<img src="/assets/images/2017/11/Misplaced-view-auto-layout-xcode.png" alt="Misplaced Views when layout does not match runtime position" width="400">
 
 * The dashed orange line shows the position the view will be on your iPhone.
 * The current position on the canvas doesn't match the layout rule.
@@ -313,7 +313,7 @@ Fix it:
 
 New in Xcode 9 are additional warnings about trailing or leading constraints for text labels. These new warnings appear to help developers fix issues with right-to-left language support on iOS 11.
 
-![](/content/images/2017/11/Localization-auto-layout-warning-trailing-constraint.png)
+![](/assets/images/2017/11/Localization-auto-layout-warning-trailing-constraint.png)
 
 You can fix this issue by adding a trailing or leading constraint between the UILabel and the closest neighbor (or edge). 
 
@@ -334,7 +334,7 @@ When rules can be interpreted in more than one way, you have an ambiguous layout
 
 This can happen if you have two areas that can both grow vertically. Not being specific on how they should grow creates an ambiguity. 
 
-<img src="/content/images/2017/11/Ambiguous-auto-layout-constraint.png" alt="Ambiguous Auto Layout Constraints with inequalities" width="400">
+<img src="/assets/images/2017/11/Ambiguous-auto-layout-constraint.png" alt="Ambiguous Auto Layout Constraints with inequalities" width="400">
 
 To fix the issue:
 
@@ -345,7 +345,7 @@ To fix the issue:
 
 Now imagine that both your boss and your direct manager give you instructions for work. One tells you to do X, and the other tells you to do Y. You have a conflict when X and Y are completely different things. Now you need to pick one of them to follow, but doing so will make one or the other upset.
 
-<img src="/content/images/2017/11/Auto-layout-conflict-xcode.png" width="400">
+<img src="/assets/images/2017/11/Auto-layout-conflict-xcode.png" width="400">
 
 **Missing Constraints**
 
@@ -355,11 +355,11 @@ The same is true with Auto Layout, you need to provide complete directions to th
 
 Even a simple mistake, or a missing rule can lead to lots of "Missing Constraints".
 
-<img src="/content/images/2017/11/Missing-constraints-xcode-auto-layout-small.png" width="400">
+<img src="/assets/images/2017/11/Missing-constraints-xcode-auto-layout-small.png" width="400">
 
 The vertical spacing constraint is missing between the "Calculate Tip" button and the box image around the total.
 
-<img src="/content/images/2017/11/Missing-constraints-xcode-auto-layout.png" width="600">
+<img src="/assets/images/2017/11/Missing-constraints-xcode-auto-layout.png" width="600">
 
 If you look on the hidden Auto Layout panel, it looks like everything is broken. Without this one constraint, none of the layout rules make sense. 
 
@@ -427,7 +427,7 @@ Depending on the panels you have open, you might not even the hidden layout erro
 
 You can display detailed errors and warnings about your Storyboard Auto Layout if you show the Auto Layout Error Panel.
 
-![Show-the-Hidden-Auto-Layout-Panel](/content/images/2017/11/Show-the-Hidden-Auto-Layout-Panel.png)
+![Show-the-Hidden-Auto-Layout-Panel](/assets/images/2017/11/Show-the-Hidden-Auto-Layout-Panel.png)
 
 1. Open your Storyboard file.
 2. Show the Document Outline with your list of view controllers (Bottom left corner of Storyboard file).
@@ -436,7 +436,7 @@ You can display detailed errors and warnings about your Storyboard Auto Layout i
 5. Read each hidden error message (including the hover tips) to help you fix the problems.
 6. If you don't understand the error, do a Google search with the exact message.
 
-![Hidden-Error-Panel-Auto-layout-fix-it-suggestions](/content/images/2017/11/Hidden-Error-Panel-Auto-layout-fix-it-suggestions.png)
+![Hidden-Error-Panel-Auto-layout-fix-it-suggestions](/assets/images/2017/11/Hidden-Error-Panel-Auto-layout-fix-it-suggestions.png)
 
 Seeing the actual warnings makes it a lot easier to figure out what's missing from your layout constraints. 
 
@@ -452,7 +452,7 @@ When you test your interface on large or small devices, the fastest way to see i
 
 When I change colors for views that are touching (adjacent), I use different colors for each view. That way you can see the edges and verify they are stretching or compressing correctly.
 
-![Colored-backgrounds-help-solve-layout-issues](/content/images/2017/11/Colored-backgrounds-help-solve-layout-issues.jpg)
+![Colored-backgrounds-help-solve-layout-issues](/assets/images/2017/11/Colored-backgrounds-help-solve-layout-issues.jpg)
 
 When you finish with your layout constraints, and you're satisfied that they behave correctly with the different iPhone simulators, you can revert the colors back to the Default color.
 
@@ -474,7 +474,7 @@ However, many times it will hide the actual constraints you need.
 
 To get around this quirk ([Please report it to Apple](http://bugreport.apple.com)), you will need to drag diagonally.
 
-![Diagonal-drag-xcode-auto-layout-constraint-storyboard](/content/images/2017/11/Diagonal-drag-xcode-auto-layout-constraint-storyboard.gif)
+![Diagonal-drag-xcode-auto-layout-constraint-storyboard](/assets/images/2017/11/Diagonal-drag-xcode-auto-layout-constraint-storyboard.gif)
 
 Many times the leading or trailing edge constraints are hidden if you just drag horizontally.
 
@@ -488,7 +488,7 @@ After you click and drag, hold down the <kbd>Shift</kbd> key as you select multi
 
 Make sure you click the button "Add Constraints" to add the constraints, otherwise you'll need to do it all over again, since they won't add if you click elsewhere on your Storyboard canvas.
 
-![Shift-to-select-multiple-constraints-xcode-auto-layout](/content/images/2017/11/Shift-to-select-multiple-constraints-xcode-auto-layout.png)
+![Shift-to-select-multiple-constraints-xcode-auto-layout](/assets/images/2017/11/Shift-to-select-multiple-constraints-xcode-auto-layout.png)
 
 You cannot add all the layout constraints from the canvas. 
 
@@ -507,7 +507,7 @@ Adding layout constraints can be tricky with a complex layout.
 1. Open the Storyboard Document Outline (Layer view)
 2. Right-click and drag from the canvas to the View
 
-![Add-difficult-constraints-with-document-outline](/content/images/2017/11/Add-difficult-constraints-with-document-outline.gif)
+![Add-difficult-constraints-with-document-outline](/assets/images/2017/11/Add-difficult-constraints-with-document-outline.gif)
 
 *Tip: You can add constraints between views in the Document Outline layer list.*
 
@@ -523,7 +523,7 @@ If you have a stretchable image, the default behavior of a `UIImageView` will be
 
 You will need to change the "Content Mode" on the `UIImageView` so that it can either "Scale to Fill", "Aspect Fit", or "Aspect Fill" to have the image fill the area correctly for different sized iPhone screens.
 
-![UIImageView-content-mode-scale-to-fill](/content/images/2017/11/UIImageView-content-mode-scale-to-fill.gif)
+![UIImageView-content-mode-scale-to-fill](/assets/images/2017/11/UIImageView-content-mode-scale-to-fill.gif)
 
 Not knowing about the Content Mode setting can make your Auto Layout constraints look wrong, and will leave you frustrated.
 
@@ -555,11 +555,11 @@ If you have a custom graphic for a callout widget, you might want to maintain an
 
 Resizable graphics are easy if the design graphic is a solid color.
 
-![non-stretchable-graphics](/content/images/2017/11/non-stretchable-graphics.gif)
+![non-stretchable-graphics](/assets/images/2017/11/non-stretchable-graphics.gif)
 
 Resizing a button graphic with a gradient limits you to a horizontal direction, or you'll see the stretch skew your gradient colors and your rectangle's corner radius.
 
-![resizable-graphic-xcode-storyboard-slicing](/content/images/2017/11/resizable-graphic-xcode-storyboard-slicing.gif)
+![resizable-graphic-xcode-storyboard-slicing](/assets/images/2017/11/resizable-graphic-xcode-storyboard-slicing.gif)
 
 Resizing a button graphic that isn't designed to stretch with cause discoloration and graphics artifacts, which makes your UI look strange (Visual artifacts distract from the user experience).
 
@@ -577,15 +577,15 @@ After you import an image into the Assets Catalog (Assets.xcassets) click on the
 1. Select Your Asset Catalog file (Assets.xcassets or Images.xcassets) and click on an image. 
 2. Click on "Show Slicing" to enable slicing mode.
 
-    ![Show-Slicing-Xcode-9-Asset-Catalog](/content/images/2017/11/Show-Slicing-Xcode-9-Asset-Catalog.png)
+    ![Show-Slicing-Xcode-9-Asset-Catalog](/assets/images/2017/11/Show-Slicing-Xcode-9-Asset-Catalog.png)
 
 3. Enable slicing on each image that needs to be stretched by clicking on "Start Slicing" button.
 
-    ![Start-Slicing-Xcode-9-Asset-Catalog](/content/images/2017/11/Start-Slicing-Xcode-9-Asset-Catalog.png)
+    ![Start-Slicing-Xcode-9-Asset-Catalog](/assets/images/2017/11/Start-Slicing-Xcode-9-Asset-Catalog.png)
     
 4. Choose between horizontal, vertical, or both horizontal and vertical slicing. 
 
-    ![Slicing-Options-Xcode-9-Asset-Catalog](/content/images/2017/11/Slicing-Options-Xcode-9-Asset-Catalog.png)
+    ![Slicing-Options-Xcode-9-Asset-Catalog](/assets/images/2017/11/Slicing-Options-Xcode-9-Asset-Catalog.png)
     
 Keep in mind how your graphic is designed in order to make it stretch. The above "Tip Callout" image will only look good stretched vertical. 
 
@@ -595,7 +595,7 @@ If you stretch the "Tip Callout" image horizontally the bottom arrow will be off
 
 Xcode slicing will enable you to specify end caps (vertical and/or horizontal), a stretchable region, and an exclusion region.
 
-![Xcode-9-Slicing-Images-to-Stretch-Retina-1](/content/images/2017/11/Xcode-9-Slicing-Images-to-Stretch-Retina-1.png)
+![Xcode-9-Slicing-Images-to-Stretch-Retina-1](/assets/images/2017/11/Xcode-9-Slicing-Images-to-Stretch-Retina-1.png)
 
 1. If you want to make a button with a vertical gradient, you can use the asset catalog to define the end caps, which may have a corner radius.
 
@@ -617,7 +617,7 @@ Using the strategies above for creating a complex stretching effect you'll need 
 
 1. Make sure you describe all the horizontal and vertical constraints to pin the graphics to the edges, and to enable equal resizing.
 
-    ![Custom-uiview-ibdesignable-auto-layout-constraints](/content/images/2017/11/Custom-uiview-ibdesignable-auto-layout-constraints.png)
+    ![Custom-uiview-ibdesignable-auto-layout-constraints](/assets/images/2017/11/Custom-uiview-ibdesignable-auto-layout-constraints.png)
     
 2. You'll need to write some code to load the UIView from the .xib file, which you can find in my:  [@IBDesignable guide for custom UIView's with .xib files](https://supereasyapps.com/blog/2014/12/15/create-an-ibdesignable-uiview-subclass-with-code-from-an-xib-file-in-xcode-6)
 
@@ -630,7 +630,7 @@ When you look at a graphic, there may be embellishments or frills that need to s
 
 For example, with this tip calculator callout, you want the bottom arrow to stay centered. If the graphic resized using one of the sides, the arrow would be aligned on the a side, and it won't align to the label that is centered below the graphic.
 
-![Horizontal Arrow Not Centered in Xcode Storyboard with Horizontal Slicing](/content/images/2017/11/Horizontal-Slicing-Tip-Calculator-Arrow-Not-Centered-Xcode-9-Storyboard.png)
+![Horizontal Arrow Not Centered in Xcode Storyboard with Horizontal Slicing](/assets/images/2017/11/Horizontal-Slicing-Tip-Calculator-Arrow-Not-Centered-Xcode-9-Storyboard.png)
 
 You have a visual disconnect that is very distracting for the user, and that doesn't match your design.
 
@@ -640,7 +640,7 @@ To achieve some visual effects you need to separate a design element into it's c
 
 For this effect you'll need at least three images/vectors, depending on how you slice apart and build the UI element. Compare the colored borders to the final composition to see how the graphics fit together.
 
-![Tip-callout-design-elements-Sketch-vectors](/content/images/2017/11/Tip-callout-design-elements-Sketch-vectors.png)
+![Tip-callout-design-elements-Sketch-vectors](/assets/images/2017/11/Tip-callout-design-elements-Sketch-vectors.png)
 
 1. Rounded rectangle (left + right end caps with a 15 point corner radius)
 2. Stretchable horizontal region
@@ -648,7 +648,7 @@ For this effect you'll need at least three images/vectors, depending on how you 
 
 Important: These vectors are exported from separate Artboards in Sketch so that the vertical offsets align (Notice the white space below the vectors).
 
-![Tip-callout-vector-export-artboard-sketch](/content/images/2017/11/Tip-callout-vector-export-artboard-sketch.png)
+![Tip-callout-vector-export-artboard-sketch](/assets/images/2017/11/Tip-callout-vector-export-artboard-sketch.png)
 
 Some elements will be static sizes like the arrow and the left and right edges of the rounded rectangle. If you were to stretch these elements it will distort the arrow or the corner radius.
 
@@ -661,7 +661,7 @@ In Xcode you can create an `@IBDesignable` UI element with the horizontal UIImag
 
 In Xcode you can create a programmatic `@IBDesignable` `.swift` file, or you can do the same thing using an `.xib` interface file.
 
-![Custom-xib-ibdesignable-uiview-Xcode-storyboard](/content/images/2017/11/Custom-xib-ibdesignable-uiview-Xcode-storyboard.png)
+![Custom-xib-ibdesignable-uiview-Xcode-storyboard](/assets/images/2017/11/Custom-xib-ibdesignable-uiview-Xcode-storyboard.png)
 
 Tip 1: Show the bounds of each image when working with your Storyboard or .xib file:
 
@@ -673,11 +673,11 @@ Tip 2: You can create multiple copies of your view to use the vibrant debug colo
 
 Using an IBDesignable view makes a design customizable UI element that you can drag around your Storyboard file. It is adaptive and can stretch or shrink to different device sizes with the proper Auto Layout constraints.
 
-<img src="/content/images/2017/11/ResizableColorCallout-1.gif" alt="Resizable Color Callout IBDesignable View" width="300">
+<img src="/assets/images/2017/11/ResizableColorCallout-1.gif" alt="Resizable Color Callout IBDesignable View" width="300">
 
 After the auto layout constraints are added, you can swap out the colored variations of the view with the white and gray style with a corner radius of 4.
 
-<img src="/content/images/2017/11/ResizableWhiteCallout.gif" alt="Resizable White Callout IBDesignable View" width="300">
+<img src="/assets/images/2017/11/ResizableWhiteCallout.gif" alt="Resizable White Callout IBDesignable View" width="300">
 
 **Layer Breakdown**
 
@@ -686,7 +686,7 @@ After the auto layout constraints are added, you can swap out the colored variat
 3. Left stretchable region pinned a fixed distance from left edge and to the left edge of the arrow
 4. Right stretchable region pinned a fixed distance from right edge, and to the right edge of the arrow
 
-<img src="/content/images/2017/11/3D_View_Debugging_Xcode.gif" alt="3D View Debugging with Xcode" width="300">
+<img src="/assets/images/2017/11/3D_View_Debugging_Xcode.gif" alt="3D View Debugging with Xcode" width="300">
 
 <script async id="_ck_296457" src="https://forms.convertkit.com/296457?v=6"></script>
 
@@ -718,15 +718,15 @@ Tip: Changing the `resizingMode` to `.tile` enables you to create patterns that 
 
 1. White Resizable rectangle with corner radius of 4 points (right click to download this image and try it).
 
-	<img src="/content/images/2017/11/White_Callout_Rectangle_4.png" alt="Resizable Rounded Rectangle with 4 point corner radius" width="200">
+	<img src="/assets/images/2017/11/White_Callout_Rectangle_4.png" alt="Resizable Rounded Rectangle with 4 point corner radius" width="200">
     
 2. Enable horizontal Asset Catalog slicing (inset 4 points on left and right) with center excluded.
 
-	<img src="/content/images/2017/11/White-rectangle-slicing-png-4-point-corner-radius.png" alt="Vertical and Horizontal Slicing in Xcode's Asset Catalog" width="300">
+	<img src="/assets/images/2017/11/White-rectangle-slicing-png-4-point-corner-radius.png" alt="Vertical and Horizontal Slicing in Xcode's Asset Catalog" width="300">
 
 3. Rendered resizable `UIImage` on iPhone X
 
-    ![Resizable UIImage Swift 4 on iPhone X](/content/images/2017/11/Programatic-Resizable-UIImage-Swift-4.png)
+    ![Resizable UIImage Swift 4 on iPhone X](/assets/images/2017/11/Programatic-Resizable-UIImage-Swift-4.png)
 
 
 ### Links ###
@@ -742,7 +742,7 @@ When you use the right-click and drag method to add constraints (or the align an
 
 You can edit the details of any constraints using the constraint options on the "Measurement" panel on the right side.
 
-![Edit-auto-layout-constraints-measurement-panel](/content/images/2017/11/Edit-auto-layout-constraints-measurement-panel.png)
+![Edit-auto-layout-constraints-measurement-panel](/assets/images/2017/11/Edit-auto-layout-constraints-measurement-panel.png)
 
 > Let me know if you want to learn more about editing constraints in an upcoming tutorial: <mailto:Paul@SuperEasyApps.com>
 
@@ -782,25 +782,25 @@ You can switch between different size classes (and devices) using the buttons on
 
 1. Add all your vertical and horizontal constraints.
 
-	<img src="/content/images/2017/11/complete-iPhone-8-layout-constraints.png" alt="Complete iPhone 8 Layout Constraints" width="340">
+	<img src="/assets/images/2017/11/complete-iPhone-8-layout-constraints.png" alt="Complete iPhone 8 Layout Constraints" width="340">
 
 2. Change your device size using the bottom screen buttons in your Storyboard file.
 
-	<img src="/content/images/2017/11/Size-classes-xcode-9-iPhone-8.png" alt="Storyboard Size Class Picker for iPhone 8 and iPhone SE" width="300">
+	<img src="/assets/images/2017/11/Size-classes-xcode-9-iPhone-8.png" alt="Storyboard Size Class Picker for iPhone 8 and iPhone SE" width="300">
 
 3. Check the error message for your layout conflict.
 
-	<img src="/content/images/2017/11/Fix-iPhone-se-layout-conflict.png" alt="Fix layout constraints conflicts for iPhone SE" >
+	<img src="/assets/images/2017/11/Fix-iPhone-se-layout-conflict.png" alt="Fix layout constraints conflicts for iPhone SE" >
 
 4. Fix any layout conflicts because your design had a fixed or rigid vertical height
 
-	<img src="/content/images/2017/11/Delete-an-autolayout-constraint.png" alt="Delete an auto layout constraint to fix the problem" width="400">
+	<img src="/assets/images/2017/11/Delete-an-autolayout-constraint.png" alt="Delete an auto layout constraint to fix the problem" width="400">
 
 	> I work from top to bottom through the layout constraints and try to identify which constraint I think is causing the problem. In this case, it's because the bottom space is set to a specific size, which is impossible on a shorter iPhone SE. 
 
 5. The solution is to make this constraint `>= 20`, instead of `= 180`
 
-	<img src="/content/images/2017/11/Fix-layout-constraint-greater-than-or-equal-to-20.png" alt="Make the constraint greater than or equal to 20" width="340">
+	<img src="/assets/images/2017/11/Fix-layout-constraint-greater-than-or-equal-to-20.png" alt="Make the constraint greater than or equal to 20" width="340">
 
 ### Updating Previous Constraints ###
 
@@ -857,25 +857,25 @@ When you want to move a view, you will need to update any Auto Layout constraint
 
 1. Add layout constraints to describe size and position
 
-	<img src="/content/images/2017/11/Original-layout-constraints.png" alt="Add Auto Layout Constraints to a Custom UIView" width="400">
+	<img src="/assets/images/2017/11/Original-layout-constraints.png" alt="Add Auto Layout Constraints to a Custom UIView" width="400">
 
 2. Move the view and see how the layout constraints are dashed orange lines (misplaced views)
 
-	<img src="/content/images/2017/11/Orange-layout-constraints-vs-frame.png" alt="Move a UIView to See Orange Misplaced Frame Guides" width="400">
+	<img src="/assets/images/2017/11/Orange-layout-constraints-vs-frame.png" alt="Move a UIView to See Orange Misplaced Frame Guides" width="400">
 
 3. A misplaced view means the frame on the Storyboard canvas does not match the frame on the iPhone at run-time. 
 
-	![Open the Auto Layout Errors Panel in Your Storyboard File](/content/images/2017/11/Misplaced-views-Xcode-9-Auto-layout.png)
+	![Open the Auto Layout Errors Panel in Your Storyboard File](/assets/images/2017/11/Misplaced-views-Xcode-9-Auto-layout.png)
 
     Tip: You can use the Xcode Fix-it suggestion from the Auto Layout error panel. Read the descriptions to understand the problem.
 
 4. Running the app with a misplaced view will show it in the original spot that the Auto Layout constraint used
 
-	<img src="/content/images/2017/11/Misplaced-view-runtime-original-constraint-position.png" alt="Misplaced Views Will Appear Based on the Layout Constraints Not the Canvas Position" width="540">
+	<img src="/assets/images/2017/11/Misplaced-view-runtime-original-constraint-position.png" alt="Misplaced Views Will Appear Based on the Layout Constraints Not the Canvas Position" width="540">
 
 5. You can force the new frame position by using the "Resolve Auto Layout Issues" button in the bottom corner of the Storyboard canvas. Choose "Update Constraint Constants" for the "Selected Views".
 
-	![Update Constraint Constants to Force a View to a New Position or Size](/content/images/2017/11/update-constraint-constants-selected-views-storyboard.png)
+	![Update Constraint Constants to Force a View to a New Position or Size](/assets/images/2017/11/update-constraint-constants-selected-views-storyboard.png)
 
 ### Workflow: Revert a Layout Change (Update Frames)  ###
 
@@ -883,7 +883,7 @@ As you click around your Storyboard file, you may miss-click. If that happens an
 
 1. Click on the left-most button on the bottom panel of your Storyboard canvas called "Update Frames"
 
-	<img src="/content/images/2017/11/update-frames-storyboard-canvas.png" alt="Revert the Canvas Position Back to the Auto Layout Constraint Position with the Update Frames Button" width="400">
+	<img src="/assets/images/2017/11/update-frames-storyboard-canvas.png" alt="Revert the Canvas Position Back to the Auto Layout Constraint Position with the Update Frames Button" width="400">
 
 <script async id="_ck_296457" src="https://forms.convertkit.com/296457?v=6"></script>
 
@@ -893,7 +893,7 @@ You can always duplicate a complex UIViewController and then apply changes, and 
 
 1. Copy and paste your "View Controller Scene"
 
-	<img src="/content/images/2017/11/Copy-and-Paste-View-Controller.png" alt="" width="600">
+	<img src="/assets/images/2017/11/Copy-and-Paste-View-Controller.png" alt="" width="600">
 
 2. Clear the constraints and add them again one at a time.
 
@@ -914,7 +914,7 @@ Use one of these two strategies with your iPhone apps:
 1. Create copies of your entire Xcode project as you make incremental changes using Finder's "duplicate" option.
 2. Rename each copy something meaningful, or just increment the version number like "2.2 Tip Calculator" and then "2.3 Tip Calculator"
 
-	<img src="/content/images/2017/11/Duplicate-xcode-project-folders-for-easy-backups.png" alt="Easy Xcode Project Backup with Finder" width="600">
+	<img src="/assets/images/2017/11/Duplicate-xcode-project-folders-for-easy-backups.png" alt="Easy Xcode Project Backup with Finder" width="600">
 
 ### Workflow: Git Version Control ###
 
@@ -924,17 +924,17 @@ Use Git locally with your project and make commits as you work.
 
 1. In Xcode when you create a new project, Check the "Create Git repository on my Mac"
 
-	<img src="/content/images/2017/11/Track-changes-with-git-in-xcode.png" alt="Track changes with git in Xcode 9" width="600">
+	<img src="/assets/images/2017/11/Track-changes-with-git-in-xcode.png" alt="Track changes with git in Xcode 9" width="600">
 
 2. Commit changes as you work after completing bug fixes or adding new features using: 
 
 	`Source Control > Commit`
 
-	<img src="/content/images/2017/11/Xcode-source-control-commit.png" alt="Xcode Source Control Commit" width="400">
+	<img src="/assets/images/2017/11/Xcode-source-control-commit.png" alt="Xcode Source Control Commit" width="400">
 
 3. Describe what you changed and click "Commit"
 
-	<img src="/content/images/2017/11/Commit-git-changes-in-Xcode-9.png" alt="images/Commit-git-changes-in-Xcode-9.png" width="800">
+	<img src="/assets/images/2017/11/Commit-git-changes-in-Xcode-9.png" alt="images/Commit-git-changes-in-Xcode-9.png" width="800">
 
 > Let me know if you'd like more insight into how to use Github and Git. <mailto:Paul@SuperEasyApps.com>
 
@@ -952,13 +952,13 @@ If you get stuck, just start over.
 
 	`Click on the "Triangle Tie Fighter" button > Selected Views > Clear Constraints`
 		
-	<img src="/content/images/2017/11/Clear-constraints-on-selected-views.png" alt="Clear constraints on selected views" width="400">
+	<img src="/assets/images/2017/11/Clear-constraints-on-selected-views.png" alt="Clear constraints on selected views" width="400">
 
 2. Or you can start over again and just clear all constraints in the current `UIViewController`.
 
 	`Click on the "Triangle Tie Fighter" button > All Views in View Controller > Clear Constraints`
 	
-	<img src="/content/images/2017/11/Clear-constraints-on-all-views.png" alt="Clear all constraints in view controller" width="400">
+	<img src="/assets/images/2017/11/Clear-constraints-on-all-views.png" alt="Clear all constraints in view controller" width="400">
 
 <script async id="_ck_296457" src="https://forms.convertkit.com/296457?v=6"></script>
 
@@ -972,7 +972,7 @@ You can align multiple views together, or to a superview (the containing view).
 
 Make sure you select multiple views before you click the align button.
 
-<img src="/content/images/2017/11/Align-button-xcode-storyboard.png" alt="images/Align-button-xcode-storyboard.png" width="300">
+<img src="/assets/images/2017/11/Align-button-xcode-storyboard.png" alt="images/Align-button-xcode-storyboard.png" width="300">
 
 ### Square Tie Fighter Button (Add New Constraints) ###
 
@@ -980,21 +980,21 @@ You can add multiple constraints in less clicks using the "Add New Constraints" 
 
 After you understand how constraints work, this button can save you time.
 
-<img src="/content/images/2017/11/Add-multiple-constraints-xcode-9.png" alt="Add multiple constraints in Xcode" width="300">
+<img src="/assets/images/2017/11/Add-multiple-constraints-xcode-9.png" alt="Add multiple constraints in Xcode" width="300">
 
 ### Triangle Tie Fighter Button (Resolve Auto Layout Issues) ###
 
 
 Use this button to clear constraints or to update constraint constant values.
 
-<img src="/content/images/2017/11/triangle-tie-fighter-button-xcode.png" alt="Update constraint constants in Xcode 9" width="300">
+<img src="/assets/images/2017/11/triangle-tie-fighter-button-xcode.png" alt="Update constraint constants in Xcode 9" width="300">
 
 
 ## 30. Don't Use These Settings <a id="dont-use-these-settings"></a>
 
 Avoid the options to "Reset to Suggested Constraints" and "Add Missing Constraints".
 
-<img src="/content/images/2017/11/Do-not-use-reset-to-suggested-constraints.png" alt="Don't use Reset to Suggested Constraints" width="300">
+<img src="/assets/images/2017/11/Do-not-use-reset-to-suggested-constraints.png" alt="Don't use Reset to Suggested Constraints" width="300">
 
 It might seem like a quick fix, but it rarely ever adds the constraints you really want. Xcode can't automatically create rules if you don't know what you want the UI to do.
 

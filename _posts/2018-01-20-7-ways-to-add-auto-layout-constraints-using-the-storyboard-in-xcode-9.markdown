@@ -18,7 +18,7 @@ Uses these 7 ways will help you prevent fatigue and will reduce your frustration
 
 I use both a Magic Trackpad and a wired Logitech G502 mouse on my desk with my 15" MacBook Pro 2016.
 
-![Dual mouse setup with Magic Trackpad and Logitech G502 Mouse](/content/images/2018/01/Trackpad-mouse-desk-for-auto-layout.jpg)
+![Dual mouse setup with Magic Trackpad and Logitech G502 Mouse](/assets/images/2018/01/Trackpad-mouse-desk-for-auto-layout.jpg)
 
 1. The TrackPad makes it easy to scroll with a two-finger drag on a Storyboard file (or show my desktop with a gesture)
 2. The wired mouse is more comfortable to me than the Magic Mouse, and it's better for games without lag (i.e.: Starcraft 2).
@@ -40,14 +40,14 @@ Try each of the 7 strategies presented to get into the Auto Layout flow.
 ## 1. Trackpad Users: Control + Single Finger Tap + Drag (i.e.: Left Click) ##
 
 
-![Trackpad Control Single Finger Tap and Drag](/content/images/2018/01/1-control-one-finger-tap-and-drag.jpg)
+![Trackpad Control Single Finger Tap and Drag](/assets/images/2018/01/1-control-one-finger-tap-and-drag.jpg)
 
 On a MacBook I typically hold control with my left hand, and then use my right hand to tap and drag.
 
 
 ## 2. Trackpad Users: Two Finger Tap + Drag (Right Click) ##
 
-![Trackpad Two Finger Tap and Drag](/content/images/2018/01/2-two-finger-tap-and-drag.jpg)
+![Trackpad Two Finger Tap and Drag](/assets/images/2018/01/2-two-finger-tap-and-drag.jpg)
 
 When I'm not at my desk and I need to add layout constraints, I'll use the two finger method. I find this one more natural, and it let's me reach further distances.
 
@@ -55,7 +55,7 @@ If you tap and hold with two fingers, you can lift one up and keep moving the co
 
 ## 3. Control + Left Click + Drag on the Storyboard Canvas ##
 
-![Control and left click and drag to add layout constraints](/content/images/2018/01/3-control-left-click-uiview-and-drag-1.jpg)
+![Control and left click and drag to add layout constraints](/assets/images/2018/01/3-control-left-click-uiview-and-drag-1.jpg)
 
 If you don't have a right click (i.e. you might be using some Virtual Machine or MacinCloud.com), you will need to use the Control + Left Click option.
 
@@ -63,7 +63,7 @@ Make sure for any of these methods that you drag. Just clicking will show you th
 
 ## 4. Right Click + Drag on the Storyboard Canvas ##
 
-![Right click and drag between Storyboard canvas UIView elements to add layout constraints](/content/images/2018/01/4-storyboard-canvas-right-click-and-drag.jpg)
+![Right click and drag between Storyboard canvas UIView elements to add layout constraints](/assets/images/2018/01/4-storyboard-canvas-right-click-and-drag.jpg)
 
 I use the Right Click and Drag the most. It's the most natural when I'm at my desk, and it's something I can do very quickly.
 
@@ -71,7 +71,7 @@ The challenge is that you can't always make the connections you need to using th
 
 ## 5. Right Click + Drag From the Canvas to the Document Outline Layer ##
 
-![Add constraints between Storyboard canvas and Document outline layer](/content/images/2018/01/5-storyboard-canvas-to-document-outline-right-click-and-drag.jpg)
+![Add constraints between Storyboard canvas and Document outline layer](/assets/images/2018/01/5-storyboard-canvas-to-document-outline-right-click-and-drag.jpg)
 
 I tend to use this approach anytime I need to setup layout constraints between containing views.
 
@@ -81,7 +81,7 @@ Typically this means dragging to the "View", but if you've created a complex hie
 
 ## 6. Right Click + Drag Between the Document Outline Layers ##
 
-![Add constraints between Document Outline Layers](/content/images/2018/01/6-document-outline-layers-right-click-and-drag.jpg)
+![Add constraints between Document Outline Layers](/assets/images/2018/01/6-document-outline-layers-right-click-and-drag.jpg)
 
 When you have a really complex UI with multiple elements on top of each other (i.e. UIImageView on top of a UILabel), it can make it hard to add constraints from the Storyboard canvas. You can shift click to "pick" the layer, but this is cumbersome and error prone. 
 
@@ -97,11 +97,11 @@ I rarely use the Pin Menu, since it doesn't let me think in a visual sense. But 
 
 There are two different menus, so to use these effectively you need to work a bit differently than you would if you were working on one or two views at a time.
 
-![Align Menu](/content/images/2018/01/7-align-menu.png)
+![Align Menu](/assets/images/2018/01/7-align-menu.png)
 
 The Align button will allow you to set leading edges, or quickly center content within a container.
 
-![Add Constraints Menu](/content/images/2018/01/7-add-constraints-menu.png)
+![Add Constraints Menu](/assets/images/2018/01/7-add-constraints-menu.png)
 
 The Add Constraints button will allow you to setup spacing between views in addition to size constraints. 
 
@@ -113,7 +113,7 @@ When you use the mouse drag techniques described above, Xcode will only show con
 
 Out of habit when I create constraints between UI elements, either adjacent buttons, or to the bounds of a containing view, I always drag in a diagonal direction to avoid missing the "context sensitive" constraints.
 
-![Drag diagonally to get more layout constraints](/content/images/2018/01/Diagonal-drag-auto-layout-constraint-context-sensitive-menu.gif)
+![Drag diagonally to get more layout constraints](/assets/images/2018/01/Diagonal-drag-auto-layout-constraint-context-sensitive-menu.gif)
 
 Drag diagonally when you add constraints and you'll see more options to choose from, this is very handy when I set both the Leading and Top constraints for an image.
 

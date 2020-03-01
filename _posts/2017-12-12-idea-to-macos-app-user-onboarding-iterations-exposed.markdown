@@ -14,13 +14,13 @@ In my own apps I've used Flurry Analytics (now owned by Yahoo) to get insights i
 
 AND I learn what features they find . . . because most don't use anything except the most obvious features.
 
-![Photo Table Session Length All Time - 12-12-17](/content/images/2017/12/0-Session-Length-Photo-Table-All-Time-12-12-17.png)
+![Photo Table Session Length All Time - 12-12-17](/assets/images/2017/12/0-Session-Length-Photo-Table-All-Time-12-12-17.png)
 
 You can see how long people use my Photo Table app.
 
 My drop-off is pretty dramatic, considering that I haven't updated it for iOS 11 because I haven't had time (I'm literally losing thousands of customers).
 
-![Photo Table Retention over 2 Years - 12-12-17](/content/images/2017/12/0-Retention-graph-Photo-Table-over-2-Years-12-12-17.png)
+![Photo Table Retention over 2 Years - 12-12-17](/assets/images/2017/12/0-Retention-graph-Photo-Table-over-2-Years-12-12-17.png)
 
 Analytics are incredibly insightful and the data will change the way you look at your app.
 
@@ -74,19 +74,19 @@ The goal was to show the user some of the features.
 
 So that's where we started . . .
 
-![First Draft of User Onboarding Screens for Super Easy Timer](/content/images/2017/12/1-first-draft-of-user-onboarding-screens-super-easy-timer.JPG)
+![First Draft of User Onboarding Screens for Super Easy Timer](/assets/images/2017/12/1-first-draft-of-user-onboarding-screens-super-easy-timer.JPG)
 
 To get an interactive timer we had to approach the UI design differently. The timer view needed to be able to inserted into other windows.
 
 We also wanted to show videos and built a quick prototype using Storyboard and tabbed pages.
 
-![macOS Storyboard with Xcode 9 using hidden tabs](/content/images/2017/12/3-Xcode-storyboard-macos-tabs-super-easy-timer.png)
+![macOS Storyboard with Xcode 9 using hidden tabs](/assets/images/2017/12/3-Xcode-storyboard-macos-tabs-super-easy-timer.png)
 
 Each tab in our Tutorial window can have different content with a headline, subhead, and an some kind of multimedia content (image, embedded timer view, or a video).
 
 Using tabs was a fast way to mock up the experience and make it easy for programmers to edit.
 
-![Onboarding Demo Window for Super Easy Timer](/content/images/2017/12/4-super-easy-timer-onboarding-demo.png)
+![Onboarding Demo Window for Super Easy Timer](/assets/images/2017/12/4-super-easy-timer-onboarding-demo.png)
 
 **Future Proofing with JSON**
 
@@ -110,14 +110,14 @@ After getting some inspiration I took two paths.
 2. Subhead copy (the details) 
 3. Storyboards for videos (the flow)
 
-![Fleshing Out Concepts for Onboarding Headlines](/content/images/2017/12/5-brainstorming-user-onboarding-content-super-easy-timer.jpg)
+![Fleshing Out Concepts for Onboarding Headlines](/assets/images/2017/12/5-brainstorming-user-onboarding-content-super-easy-timer.jpg)
 
 
 ### Second I Mocked Up a Checklist ###
 
 While I was looking at examples I came across a few web apps that were doing a checklist (which seemed like a good use of gamification and open loops).
 
-![Use Checklists to Create Open Loops for Your Users to Close](/content/images/2017/12/5-checklist-for-user-onboarding-concept-super-easy-timer.jpg)
+![Use Checklists to Create Open Loops for Your Users to Close](/assets/images/2017/12/5-checklist-for-user-onboarding-concept-super-easy-timer.jpg)
 
 People like to cross things off, but this can back fire if your users struggle!
 
@@ -143,7 +143,7 @@ It became clear that I needed to capture a whole lot more details for what conte
 
 Here's what my next iteration of storyboard screens started to look like:
 
-![More Storyboard Details for the User Onboarding Process](/content/images/2017/12/6-Storyboarding-in-more-detail-super-easy-timer.jpg)
+![More Storyboard Details for the User Onboarding Process](/assets/images/2017/12/6-Storyboarding-in-more-detail-super-easy-timer.jpg)
 
 Going through this iteration phase was essential for starting to figure out all the pieces we would either need to build, or the modes we might want to support (development time).
 

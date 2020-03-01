@@ -35,7 +35,7 @@ Today one of my students was stuck with Xcode crashing the app on start. It woul
 
 We dug a little deeper and discovered that there was a "Thread 1: signal SIGABRT" message, followed by an issue about not being able to load a library using dyld (dynamic linker). All Swift modules are loaded dynamically on iOS 11.
 
-![Xcode 9 Crash SIGABRT libswiftCore.dylib: code signing blocked](/content/images/2018/03/1-Xcode-crash-SIGABRT-dyld-library-not-loaded-libswiftCore.png)
+![Xcode 9 Crash SIGABRT libswiftCore.dylib: code signing blocked](/assets/images/2018/03/1-Xcode-crash-SIGABRT-dyld-library-not-loaded-libswiftCore.png)
 
 		dyld: Library not loaded: @rpath/libswiftCore.dylib
 		  Referenced from: /var/containers/Bundle/Application/9AC9EC51-7480-4E92-8C24-654EAB6A6046/Test.app/Test
@@ -61,23 +61,23 @@ I believe there's two potential fixes to this issue, but it's hard to diagnose b
 
 1. Open the Keychain app and navigate to Certifcates
 
-    ![Open Keychain](/content/images/2018/03/2-Keychain-Access-for-iPhone-Developers-Certificate.png)
+    ![Open Keychain](/assets/images/2018/03/2-Keychain-Access-for-iPhone-Developers-Certificate.png)
 
 2. Double click the "iPhone Developer: YOUR NAME (XYZ)" 
 3. Expand the Trust section at the top and change from "Always Trust" to "Use System Defaults"
 
-    ![Change Always Trust to Use System Defaults](/content/images/2018/03/3-Xcode-9-Always-Trust-Certificate-Issue.png)
+    ![Change Always Trust to Use System Defaults](/assets/images/2018/03/3-Xcode-9-Always-Trust-Certificate-Issue.png)
 
 4. After making the change it should look like:
 
-![Xcode 9 Certificate Use System Defaults](/content/images/2018/03/4-Xcode9-Certificate-bug-fix.png)
+![Xcode 9 Certificate Use System Defaults](/assets/images/2018/03/4-Xcode9-Certificate-bug-fix.png)
 
 4. Close the Certificate Window (it'll prompt you to authenticate to make changes)
 6. Open your Xcode project and "Clean your Xcode Build Folder"
 	1. `Command + Alt + Shift + K`
 8. Verify your developer profile is selected 
 
-	![Select Your Xcode Team Profile](/content/images/2018/03/5-Select-Your-Team-Profile-Xcode-9.png)
+	![Select Your Xcode Team Profile](/assets/images/2018/03/5-Select-Your-Team-Profile-Xcode-9.png)
 
 9. Run your iPhone app
 
@@ -92,17 +92,17 @@ Note: It would probably be a good idea to export on both machines to backup any 
 1. Go to Xcode > Preferences > Accounts
 2. In the bottom left corner click the Cog button and "Export Apple ID and Code Signing Assets..."
 
-	![Export Apple ID and Code Signing Assets...](/content/images/2018/03/11-Export-Apple-ID-and-Code-Signing-Assets.png)
+	![Export Apple ID and Code Signing Assets...](/assets/images/2018/03/11-Export-Apple-ID-and-Code-Signing-Assets.png)
 
 3. Find a shared location (Dropbox) and create a password (You'll want to keep these protected and backed up)
 
-	![Save to Dropbox with a Secure Password](/content/images/2018/03/12-Export-Apple-Developer-Certificate-to-Dropbox.png)
+	![Save to Dropbox with a Secure Password](/assets/images/2018/03/12-Export-Apple-Developer-Certificate-to-Dropbox.png)
 
 4. On the 2nd Mac import the developer credentials using "Import Apple ID and Code Signing Assets..."
 
 	Note: If you have issues, try removing all the Developer Accounts on the problematic Mac, and then re-import
 
-	![Import Apple ID and Code Signing Assets...](/content/images/2018/03/13-Import-Apple-Developer-Code-Signing-Assets.png)
+	![Import Apple ID and Code Signing Assets...](/assets/images/2018/03/13-Import-Apple-Developer-Code-Signing-Assets.png)
 	
 6. Clean your Xcode Build Folder
 	1. `Command + Alt + Shift + K`
@@ -110,7 +110,7 @@ Note: It would probably be a good idea to export on both machines to backup any 
 9. Run your iPhone app
 10. At one of these steps you'll see a dialog to login to enable `codesign` . . . and this is where things get a little weird in Xcode 9 (buggy). If you see a dialog with the message "codesign wants to access key "access" in your keychain" you might have to type your Mac password a lot to make it go away. (there might be 10-30 dialog's sitting behind it all asking the same question ... the clue is the drop shadow might be really dark).
 
-	![codesign wants to access key "access" in your keychain](/content/images/2018/03/14-Codesign-xcode-access.png)
+	![codesign wants to access key "access" in your keychain](/assets/images/2018/03/14-Codesign-xcode-access.png)
 	
 	1. If that's the case you'll have to type the password 10-30 times ... to close all of the windows.
 	2. I believe this is because there's all those fields in the Certificate displayed in Option 1, but I'm not positive.

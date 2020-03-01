@@ -22,7 +22,7 @@ If you have a problem with a Mac app you purchased from the Mac App Store, you c
 * [Please Be Friendly](#please-be-friendly)
 * [Subscription and Apple Support](#subscription-and-apple-support)
 
-![Mac App Store Refund in 6 Steps](/content/images/2018/07/Mac-App-Store-Refund-in-6-Steps.jpg)
+![Mac App Store Refund in 6 Steps](/assets/images/2018/07/Mac-App-Store-Refund-in-6-Steps.jpg)
 
 ## 6 Steps to Get a Mac App Store Refund <a id="6-refund-steps"></a>
 The easiest way to request a refund is using the **"Your receipt from Apple"** email. Apple sends this email receipt after any purchase on the App Store, iTunes, or Apple TV *(you can use these steps for iOS apps too).*
@@ -31,21 +31,21 @@ Follow the step-by-step guide to request your refund for any Mac App Store purch
 
 1. Open the iTunes Receipt Email: "Your receipt from Apple."
 
-    ![Request a Mac App Store Refund from the Apple Receipt Email](/content/images/2018/07/1-Mac-App-Store-Refund---iTunes-Receipt-Email.png)
+    ![Request a Mac App Store Refund from the Apple Receipt Email](/assets/images/2018/07/1-Mac-App-Store-Refund---iTunes-Receipt-Email.png)
 
 2. Click the link to "Report a Problem" for the app that you want to be refunded in the receipt email
 
 3. Log in to your Apple ID account to see your last 90 days of App Store purchases
 
-    ![Login to your Apple ID for your App Store Refund](/content/images/2018/07/2-Mac-App-Store-Refund---iTunes-Purchases-Help-90-Days.png)
+    ![Login to your Apple ID for your App Store Refund](/assets/images/2018/07/2-Mac-App-Store-Refund---iTunes-Purchases-Help-90-Days.png)
 
 4. Choose "Meant to purchase a different item" or "Didn't mean to purchase this item"
 
-    ![Request to purchase a different item or didn't mean to purchase this item](/content/images/2018/07/3-Mac-App-Store-Refund---iTunes-Report-a-Problem.png)
+    ![Request to purchase a different item or didn't mean to purchase this item](/assets/images/2018/07/3-Mac-App-Store-Refund---iTunes-Report-a-Problem.png)
 
 5. Type a reason and explain why you believe you should get a refund
 
-    ![Explain why you want a Mac App Store refund](/content/images/2018/07/4-Mac-App-Store-Refund---iTunes-Report-a-Problem.png)
+    ![Explain why you want a Mac App Store refund](/assets/images/2018/07/4-Mac-App-Store-Refund---iTunes-Report-a-Problem.png)
 
 6. Wait 2-7 days for a response and refund (see the tips below on how to get a positive result)
 
@@ -58,23 +58,23 @@ Follow the steps below to find your Purchase History:
 
 1. Open iTunes and click on your iTunes Account settings
 
-    ![Open iTunes Account settings](/content/images/2018/07/10-iTunes-Refund-Request.png)
+    ![Open iTunes Account settings](/assets/images/2018/07/10-iTunes-Refund-Request.png)
 
 3. Log in with your Apple ID that purchased the app
 
-    ![Login with your Apple ID that purchased the app](/content/images/2018/07/11-Sign-into-iTunes-Account-Settings-iTunes-Refund.png)
+    ![Login with your Apple ID that purchased the app](/assets/images/2018/07/11-Sign-into-iTunes-Account-Settings-iTunes-Refund.png)
 
 5. Scroll down to your Purchase History, and click on "Show All"
 
-    ![Scroll to your iTunes Purchase History](/content/images/2018/07/12-Scroll-down-to-purchase-history-iTunes-Refund.png)
+    ![Scroll to your iTunes Purchase History](/assets/images/2018/07/12-Scroll-down-to-purchase-history-iTunes-Refund.png)
 
 7. Find the app you want to be refunded and click on the "More" button on the right side
 
-    ![Click on More to see Refund Button](/content/images/2018/07/13-Click-on-More-for-purchase-order-iTunes-Refund.png)
+    ![Click on More to see Refund Button](/assets/images/2018/07/13-Click-on-More-for-purchase-order-iTunes-Refund.png)
 
 11. Click on the "Report a Problem" to request your refund
 
-    ![Report a Problem to Request a Refund for a Mac App Store app](/content/images/2018/07/14-Report-a-problem-iTunes-Refund.png)
+    ![Report a Problem to Request a Refund for a Mac App Store app](/assets/images/2018/07/14-Report-a-problem-iTunes-Refund.png)
 
 13. Follow the steps above to get a refund (plus, read the tips below for best results)
 
@@ -108,7 +108,7 @@ Let me know down below what you tried to get refunded and what happened.
 
 Recently I had a customer leave a negative review on my [Super Easy Timer Mac App.](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?mt=12) It wasn't the right fit for them, due to limitations in version 1.0.23 (Super Easy Timer doesn't support multiple timers).
 
-![Super Easy Timer Mac App Negative Refund Review](/content/images/2018/07/0---Super-Easy-Timer---Mac-App-Store-Negative-Review.png)
+![Super Easy Timer Mac App Negative Refund Review](/assets/images/2018/07/0---Super-Easy-Timer---Mac-App-Store-Negative-Review.png)
 
 They complained they couldn't get a refund because the app didn't work like they expected, so they gave the app 1 star.
 

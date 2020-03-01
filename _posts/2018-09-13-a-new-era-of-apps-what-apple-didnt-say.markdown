@@ -6,7 +6,7 @@ date: '2018-09-13 11:54:15'
 
 Apple's 2018 announcement was the BEST announcement from Apple since Steve unveiled the iPhone (and iPad).
 
-![Real-time-machine-learning-iPhone-Xs](/content/images/2018/09/Real-time-machine-learning-iPhone-Xs.png)
+![Real-time-machine-learning-iPhone-Xs](/assets/images/2018/09/Real-time-machine-learning-iPhone-Xs.png)
 
 Not only did it make me feel human and LAUGH, but it unveiled what Apple has been hard at work on for the past few years.
 

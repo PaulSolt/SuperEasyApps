@@ -60,7 +60,7 @@ Here are 6 different countdown timer apps that you can use on macOS High Sierra 
 
 If you want a simple timer that is easy to change, download [Super Easy Timer for Mac](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?mt=12).
 
-[![Super-Easy-Timer-Hero](/content/images/2018/04/Super-Easy-Timer-Hero.gif)](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?mt=12)
+[![Super-Easy-Timer-Hero](/assets/images/2018/04/Super-Easy-Timer-Hero.gif)](https://itunes.apple.com/us/app/super-easy-timer/id1353137878?mt=12)
 
 1. Use a Full Screen countdown timer
 2. Use natural language to create timers by typing "25" or "25 minutes"
