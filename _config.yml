@@ -32,6 +32,8 @@ github_username:  paulsolt
 # Build settings
 markdown: kramdown
 theme: minima
+show_excerpts: true
+
 # theme: jekyll-theme-hydeout
 plugins:
   - jekyll-feed
