@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img alt="Paul Solt iOS Developer" src="/assets/images/2018/06/Paul-Solt-2013-Square-400x400.jpg" style="width: 250px; height:250px">
+<img alt="Paul Solt iOS Developer" src="/assets/images/PaulSolt-2019-512@2x.jpeg" style="width: 250px; height:250px">
 
 I’m Paul Solt, an iPhone App Expert, who is passionate about helping you learn how to create apps and bring your ideas to life. 
 
