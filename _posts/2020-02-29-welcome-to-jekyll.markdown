@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: landing
 title:  "Welcome to Jekyll!"
 date:   2020-02-29 18:45:49 -0500
 categories: jekyll update
@@ -21,6 +21,15 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+
+```swift
+var x = 10
+// comments are good
+func test(y: String) {
+  print("The fox rang the doorbell: \(y)")
+}
+```
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

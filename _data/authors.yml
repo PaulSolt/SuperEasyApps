@@ -1,0 +1,23 @@
+paulsolt:
+  name: Paul Solt
+  site: SuperEasyApps.com
+  avatar: PaulSolt
+  bio: "iOS Developer and Instructor"
+  email: Paul@SuperEasyApps.com
+  # Twitter nick for use in Twitter cards and follow button.
+  twitter: PaulSolt # if no twitter in this config, the twitter follow button will be removed
+  # GitHub nick for use in follow button in author block.
+  github: PaulSolt
+  social:
+    - title: "github"
+      url: "http://github.com/PaulSolt"
+    - title: "linkedin"
+      url: "https://www.linkedin.com/in/paulsolt"
+    - title: "youtube"
+      url: "http://www.youtube.com/user/PaulSolt"
+    - title: "facebook"
+      url: "https://www.facebook.com/PaulSolt"
+lukelapresi:
+  name: Luke Lapresi
+  site: lukelapresi.com
+  

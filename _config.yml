@@ -33,6 +33,7 @@ github_username:  paulsolt
 markdown: kramdown
 theme: minima
 show_excerpts: true
+permalink: /:title
 
 # theme: jekyll-theme-hydeout
 plugins:

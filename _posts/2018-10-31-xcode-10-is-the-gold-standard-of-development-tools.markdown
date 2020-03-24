@@ -6,6 +6,7 @@ tags:
 - macos
 - xcode
 - ios
+author: paulsolt
 ---
 
 Xcode 10 is a fantastic update to an already great piece of software for developing and debugging apps. Xcode allows you to easily create an iPhone app or a Mac app that you can launch and sell on the App Store.
